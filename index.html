@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Record</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;family=Signika+Negative:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="SearchIcon.js"></script>
+</head>
+<body >
+<div id="root">
+<div class="tutto">
+    <header class="header" id="header-home">
+        <div class="alto">
+        <div class="logo">
+            <a href="#">
+                <div class="logo-info">
+                    <img src="https://s2-prod.dailyrecord.co.uk/@trinitymirrordigital/chameleon-branding/publications/dailyrecord/img/logo-dailyrecord.4c4d88d32bde1410.png" alt="DailyRecord">
+                </div>
+            </a>
+        </div>
+        <div class="nav">
+            <ul class="navul">
+                <li class="nav-item">NEWS</li>
+                <li class="nav-item">POLITICS</li>
+                <li class="nav-item">FOOTBALL</li>
+                <li class="nav-item">SPORT</li>
+                <li class="nav-item">TV & CELEBS</li>
+                <li class="nav-item">LIFE & STYLE</li>
+                <li class="nav-item">MORE</li>
+            </ul>
+        </div>
+        <div class="social-sites">
+            <a href="https://www.facebook.com" target="_blank" class="facebook-button">
+                <img src="Images/facebook.png" alt="Icona Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="twitter-button">
+                <img src="Images/twitter.png" alt="Icona Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank" class="instagram-button">
+                <img src="Images/instagram.png" alt="Icona Instagram">
+            </a>
+        </div>
+            <div class="nascondetevi">
+                <button class="bottone" onclick="toggleSearchInput()"><i class="fas fa-search"></i></button>
+                    <label for="searchInput"></label><input type="text" id="searchInput" class="hidden" placeholder="Cerca...">
+                <button class="bottone">
+                    <img src="Images/user.png" alt="Icona login">
+                </button>
+            </div>
+        </div>
+        <div class="basso">
+        <nav class="nav-basso">
+            <ul class="nav-text">
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a> </li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+                <li class="nav-items"><a href="#"> LOREM IPSUM </a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <header class="header-mov" id="header-scroll">
+        <div class="all-mov">
+            <img src="https://s2-prod.dailyrecord.co.uk/@trinitymirrordigital/chameleon-branding/publications/dailyrecord/img/logo-dailyrecord.4c4d88d32bde1410.png" alt="DailyRecord">
+            <ul class="follow">
+                <li class="follow-item">FOLLOW US</li>
+            </ul>
+            <a href="https://www.facebook.com" target="_blank" class="facebook-button">
+                <img src="Images/facebook.png" alt="Icona Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="twitter-button">
+                <img src="Images/twitter.png" alt="Icona Twitter">
+            </a>
+            <a href="https://instagram.com" target="_blank" class="instagram-button">
+                <img src="Images/instagram.png" alt="Icona Instagram">
+            </a>
+            <button class="bottone">
+                <img src="Images/search.png" alt="Icona login">
+            </button>
+            <button class="bottone">
+                <img src="Images/user.png" alt="Icona login">
+            </button>
+        </div>
+    </header>
+    <div class="figure-front">
+        <figure class="front-page">
+            <img src="https://placehold.co/1176x518?text=LOREM" alt="image" class="fp-img">
+        </figure>
+        <a class="fp-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+        <a class="descrizione">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+        <div class="bookmark">
+            <span class="bookmark-text">Bookmark</span>
+            <span class="bookmark-icon">
+                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                </svg>
+            </span>
+        </div>
+    </div>
+    <div class="articoli">
+        <div class="section">
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="prima-img">
+        <div class="prima-c">
+            <figure class="prima">
+                <img src="https://placehold.co/533x355?text=LOREM" alt="image" class="p-img">
+            </figure>
+            <div class="t-text">
+                <a class="prima-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                <a class="lbl">LOREM</a>
+                <div class="prima-bookmark">
+                    <span class="prima-bookmark-text">Bookmark</span>
+                    <span class="prima-icon">
+                                <svg class="icon" width="14" height="18" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                </div>
+            </div>
+        </div>
+        <div class="prima-lat" id="item3">
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prsx">
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="brb">
+        <div class="cope">
+            <div class="cop">
+                <figure class="copertina">
+                    <img src="https://placehold.co/809x546?text=LOREM" alt="image" class="c-img">
+                </figure>
+                <a class="cop-text">nec finibus magna vestibulum Phasellus quis quam at felis tristique laoreet. Morbi et finibus ex.</a>
+                <a class="cop-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut ante
+                    faucibus Morbi at convallis ex, quis viverra odio. Phasellus quis elementum ligula.
+                </a>
+                <div class="cop-bookmark">
+                    <span class="cope-text">Bookmark</span>
+                    <span class="cop-icon">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <image href="Images/bookmark.png"  height="24" width="24"/>
+                    </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="prima-lat" id="item4">
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+            <div class="lat">
+                <figure class="fl">
+                    <img src="https://placehold.co/174x116?text=LOREM" alt="image" class="fl-img">
+                </figure>
+                <div class="fl-text">
+                    <a class="fl-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                    <div class="fl-bookmark">
+                        <span class="fl-bookmark-text">Bookmark</span>
+                        <span class="fl-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gg">
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="box">
+                <figure class="sqr">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="s-img">
+                    <div class="sqrtext">
+                        <a class="sq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="sqr-label">
+                        <div class="sqr-text">
+                            <a class="sqr-t">Lorem ipsum</a>
+                        </div>
+                        <div class="sqr-bookmark">
+                            <span class="sqr-bookmark-text">Bookmark</span>
+                            <span class="sqr-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="articoli">
+        <div class="section">
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+            <div class="primi4">
+                <figure class="frame">
+                    <img src="https://placehold.co/270x179?text=LOREM" alt="image" class="f-img">
+                    <div class="frame-text">
+                        <a class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit urna ut
+                            ante faucibus
+                        </a>
+                    </div>
+                    <div class="frame-label">
+                        <div class="label-text">
+                            <a class="label">Lorem ipsum</a>
+                        </div>
+                        <div class="label-bookmark">
+                            <span class="label-bookmark-text">Bookmark</span>
+                            <span class="bookmark-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="prima-f">
+        <figure class="primaf">
+            <img src="https://placehold.co/682x454?text=LOREM" alt="image" class="j-img">
+        </figure>
+        <div class="j-text">
+            <a class="primaf-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+            <a class="primaflbl">LOREM Phasellus quis elementum ligula. Phasellus quis quam at felis tristique laoreet. Morbi et finibus ex.</a>
+            <div class="primaf-bookmark">
+                <span class="primaf-bookmark-text">Bookmark</span>
+                <span class="primaf-icon">
+                                <svg class="icon" width="16" height="16" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <image href="Images/bookmark.png"  height="24" width="24"/>
+                                </svg>
+                            </span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul class="section-links">
+            <li>
+                <a class="slink" href="#">News</a>
+            </li>
+            <li>
+                <a class="slink" href="#">Sport</a>
+            </li>
+            <li>
+                <a class="slink" href="#">Celebs</a>
+            </li>
+            <li>
+                <a class="slink" href="#">Life &amp; Style</a>
+            </li>
+        </ul>
+        <div class="social">
+            <h4>Follow us</h4>
+            <ul class="follows">
+                <svg class="icon-f" width="18" height="18" viewBox="0 0 26 26" fill="circle" xmlns="http://www.w3.org/2000/svg">
+                    <image href="Images/facebook.png"  height="22" width="22"/>
+                </svg>
+                <svg class="icon-t" width="36" height="36" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <image href="Images/twitter.png"  height="24" width="24"/>
+                </svg>
+                <svg class="icon-i" width="36" height="36" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <image href="Images/instagram.png"  height="24" width="24"/>
+                </svg>
+            </ul>
+        </div>
+        <ul class="utility-links">
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+            <li>
+                <a class="ulink" href="#">Lorem</a>
+            </li>
+        </ul>
+    </footer>
+</div>
+</div>
+</body>
+</html>
+
